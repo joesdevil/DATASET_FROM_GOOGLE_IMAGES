@@ -29,7 +29,7 @@ pip install selenium webdriver-manager requests
 ### **📌 Running the Script**  
 
 ```bash
-python data_img_collector.py
+python dataCollection_threads.py
 ```
 
 🔹 The script will prompt you to:  
@@ -42,8 +42,8 @@ python data_img_collector.py
 
 ```
 📦 Image-Dataset-Collector
-│── functions_dependencies.py     # Functions
-│── data_img_collector.py         # Main script
+│── dataCollection.py     # Functions
+│── dataCollection_threads.py         # Main script
 │── /images/               # Folder where images are saved (organized by search query)
 │── README.md              # Project documentation
 ```
@@ -57,7 +57,7 @@ python data_img_collector.py
 3️⃣ **Google Image Search:** Selenium automates searching & extracts image URLs.  
 4️⃣ **Downloading:** Images are saved in `/images/query_name/`.  
 5️⃣ **Progress Display:** Shows real-time completion percentage.  
-6️⃣ **Logging:** All image URLs are stored in `image_urls.log`.  
+6️⃣ **Logging:** All logs are stored in logs folder with `{query}.log`.  
 
 ---
 
