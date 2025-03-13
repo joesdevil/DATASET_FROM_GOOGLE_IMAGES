@@ -29,7 +29,7 @@ pip install selenium webdriver-manager requests
 ### **📌 Running the Script**  
 
 ```bash
-python dataset_scraper.py
+python data_img_collector.py
 ```
 
 🔹 The script will prompt you to:  
@@ -42,8 +42,8 @@ python dataset_scraper.py
 
 ```
 📦 Image-Dataset-Collector
-│── dataset_scraper.py     # Main script
-│── image_urls.log         # Stores extracted image URLs
+│── functions_dependencies.py     # Functions
+│── data_img_collector.py         # Main script
 │── /images/               # Folder where images are saved (organized by search query)
 │── README.md              # Project documentation
 ```
